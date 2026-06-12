@@ -5,6 +5,20 @@ Built with **Flask** for lightweight, fast, and reliable performance.
 
 # ⚠️IMPORTANT
 Make Your Repo private! Otherwise, your guest ID password may be stolen
+
+# 🪧NOTICE
+---
+From 2026-06-13, ```https://xtytdtyj-jwt.up.railway.app/token``` this JWT token generator API will not work without a key. If you want to use it, you will need to buy a key or the API source code.
+**API DESTINATION:** ```https://github.com/username/repo-name/blob/main/update_tokens.py - Line no. 6```
+**If you want to buy API KEY or Source code contact me on**
+<a href="https://t.me/itzpaglu">
+  <img
+    src="https://img.shields.io/badge/TELEGRAM-blue?style=for-the-badge&logo=telegram"
+    alt="Telegram"
+    align="center"
+  />
+</a>
+
 ---
 
 ## 🌟 Features
@@ -77,7 +91,7 @@ https://your-domain.com/like?uid=123456789
 
 <p align="center">
   <a href="https://t.me/itzpaglu">
-    <img src="https://img.shields.io/badge/Owner-🔥%20@itzpaglu-pink?style=for-the-badge&logo=telegram" />
+    <img src="https://img.shields.io/badge/Owner-🔥%20@itzpaglu-blue?style=for-the-badge&logo=telegram" />
   </a>
   <a href="https://t.me/paglu_dev">
     <img src="https://img.shields.io/badge/Channel-TARIKUL.dev-blue?style=for-the-badge&logo=telegram" />
