@@ -15,11 +15,26 @@ import base64
 
 app = Flask(__name__)
 
+# def load_tokens():
+#     try:
+#         with open("tokens.json", "r") as f:
+#             tokens = json.load(f)
+#         return tokens
+#     except Exception as e:
+#         app.logger.error(f"Error loading tokens: {e}")
+#         return None
+import os
+
 def load_tokens():
     try:
-        with open("tokens.json", "r") as f:
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        token_path = os.path.join(base_dir, "tokens.json")
+
+        with open(token_path, "r") as f:
             tokens = json.load(f)
+
         return tokens
+
     except Exception as e:
         app.logger.error(f"Error loading tokens: {e}")
         return None
